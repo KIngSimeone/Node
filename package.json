@@ -1,11 +1,15 @@
 {
   "name": "node-tutorial",
   "version": "1.0.0",
-  "description": "Simple node app",
-  "main": "index.js",
+  "description": "Simple express app",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Simeone",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "*",
+    "body-parser": "*"
+  }
 }
